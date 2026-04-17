@@ -44,7 +44,7 @@ def background_logger():
         db = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Mandava@1234",
+            password="password",
             database="ddos_monitor"
         )
         cursor = db.cursor()
